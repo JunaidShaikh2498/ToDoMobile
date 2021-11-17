@@ -14,10 +14,11 @@
 
         <div class="heading">
             <div class="task">
+                
                 <span style="font-weight: bolder; color: black;">Tasks</span> Lists
             </div>
             <div class="add_task">
-                <div><i class="fas fa-plus-circle fa-2x" style="color: rgb(245, 88, 49);"></i></i></div>
+                <div><a href="./page3.html"><i class="fas fa-plus-circle fa-2x" style="color: rgb(245, 88, 49);"></i></i></a></div>
                 <div style="font-size: 30px; color: grey; margin-left: 8px;">Add list</div>
             </div>
         </div>
@@ -27,7 +28,29 @@
 
         <div class="container">
             <div class="boxes">
-                <p class="task_h">Trip to Paris</p>
+                <p class="task_h"><a href="./page2.html">Trip to Paris</a></p>
+                <hr style="margin-bottom: 30px; margin-left: 30px;">
+                <p class="strike">Completed task</p>
+                <input type="checkbox" name="pending" id="task_p" value="task_completed" style="float: left; margin-right: 8px;">
+                <label for="task_p" style="float:left;">Pending Task</label>
+            </div>
+            <div class="boxes">
+                <p class="task_h">My Todo List</p>
+                <hr style="margin-bottom: 30px; margin-left: 30px;">
+                <p class="strike">Completed task</p>
+                <input type="checkbox" name="pending" id="task_pe" value="task_completed" style="float: left; margin-right: 8px;">
+                <label for="task_pe" style="float:left;">Pending task</label>
+            </div>
+            <div class="boxes">
+                <p class="task_h">My Todo List</p>
+                <hr style="margin-bottom: 30px; margin-left: 30px;">
+                <p class="strike">Completed task</p>
+                <input type="checkbox" name="pending" id="task_pen" value="task_completed" style="float: left; margin-right: 8px;">
+                <label for="task_pen" style="float:left;">Pending Task</label>
+            </div>
+            <!-- 1st row -->
+            <div class="boxes">
+                <p class="task_h">My Todo List</p>
                 <hr style="margin-bottom: 30px; margin-left: 30px;">
                 <p class="strike">Completed task</p>
                 <input type="checkbox" name="pending" id="task_p" value="task_completed" style="float: left; margin-right: 8px;">
@@ -53,8 +76,7 @@
 
     <div class="pages">
         <div style="margin-top: 15px; margin-right: 9px;"><a href="./index.html">Home</a></div>
-        <div style="margin-top: 15px; margin-right: 9px;"><a href="./page4.html">Page 4</a></div>
-        <p style="color: grey;">1 of 4</p>
+        <p style="color: grey;">1 of 2</p>
         <div style="margin-top: 15px; margin-left: 9px;"><a href="./page2.html">Page 2</a></div>
     </div>
 </body>

@@ -15,12 +15,15 @@
     display: flex;
 }
 .container{
+    width: 50%;
     margin-left: 20%;
     margin-top: 0px;
     padding-top: 30px;
+    flex-wrap: wrap;
     display: flex;
 }
 .boxes{
+    margin-top: 50px;
     margin-left:50px;
     padding-top: 3px;
     width: 150px;
@@ -34,6 +37,14 @@
     font-size: larger;
     color: rgb(245, 88, 49);
     font-weight: 525; 
+}
+a:link{
+    color:rgb(245, 88, 49);
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(245, 88, 49);
+    text-decoration: none;
 }
 .strike{
     margin-left: 13px;
@@ -129,6 +140,12 @@ padding-top:5px ;
     height: 30px ;
     width: 250px;
     margin-top: 15px;
+}
+.back_btn{
+    position: absolute;
+    top:50px;
+    left:60px;
+    z-index: 40;
 }
 #button{
     width: 70px;
